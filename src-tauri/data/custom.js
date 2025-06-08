@@ -39,6 +39,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 const element0 = document.querySelector('#q-app > div.footer.text-grey-14');
                 if (element0) {
                     element0.style.display = 'none';
+                };const element1 = document.querySelector('#q-app > div.q-layout.q-layout--standard > header > div.q-toolbar.row.no-wrap.items-center.bg-white.text-blue-6 > button:nth-child(2)');
+                if (element1) {
+                    element1.style.display = 'none';
+                };const element2 = document.querySelector('#q-app > div.q-layout.q-layout--standard > header > div.q-toolbar.row.no-wrap.items-center.bg-white.text-blue-6 > button:nth-child(3)');
+                if (element2) {
+                    element2.style.display = 'none';
+                };const element3 = document.querySelector('#q-app > div.q-layout.q-layout--standard > header > div.q-toolbar.row.no-wrap.items-center.bg-white.text-blue-6 > div.q-toolbar__title.ellipsis > div');
+                if (element3) {
+                    element3.style.display = 'none';
+                };const element4 = document.querySelector('#q-app > div.footer.text-grey-14');
+                if (element4) {
+                    element4.style.display = 'none';
+                };const element5 = document.querySelector('#q-app > div.q-layout.q-layout--standard > header > div.q-toolbar.row.no-wrap.items-center.bg-white.text-blue-6 > button:nth-child(2)');
+                if (element5) {
+                    element5.style.display = 'none';
+                };const element6 = document.querySelector('#q-app > div.q-layout.q-layout--standard > header > div.q-toolbar.row.no-wrap.items-center.bg-white.text-blue-6 > button:nth-child(3)');
+                if (element6) {
+                    element6.style.display = 'none';
+                };const element7 = document.querySelector('#q-app > div.q-layout.q-layout--standard > header > div.q-toolbar.row.no-wrap.items-center.bg-white.text-blue-6 > div.q-toolbar__title.ellipsis > div');
+                if (element7) {
+                    element7.style.display = 'none';
                 }
             }
         }
