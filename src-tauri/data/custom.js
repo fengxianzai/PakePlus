@@ -24,37 +24,3 @@ const hookClick = (e) => {
 }
 
 document.addEventListener('click', hookClick, { capture: true })
-
-// css filter
-document.addEventListener('DOMContentLoaded', () => {
-    const targetNode = document.body
-    // 配置观察选项
-    const config = {
-        childList: true,
-        subtree: true,
-    }
-    const observer = new MutationObserver((mutationsList, observer) => {
-        for (const mutation of mutationsList) {
-            if (mutation.type === 'childList') {
-                const element0 = document.querySelector('body > div.manual-reader.manual-container > header > div > div > nav > ul > li:nth-child(6)');
-                if (element0) {
-                    element0.style.display = 'none';
-                };const element1 = document.querySelector('body > div.manual-reader.manual-container > header > div > div > nav > ul > li:nth-child(7)');
-                if (element1) {
-                    element1.style.display = 'none';
-                };const element2 = document.querySelector('body > div.manual-reader.manual-container > div > div.panel.panel-default.panel-recommend > div.panel-heading');
-                if (element2) {
-                    element2.style.display = 'none';
-                };const element3 = document.querySelector('body > div.manual-reader.manual-container > div > div.panel.panel-default.panel-recommend > div.panel-body > div:nth-child(2)');
-                if (element3) {
-                    element3.style.display = 'none';
-                };const element4 = document.querySelector('body > div.manual-reader.manual-container > header > div > div > nav > ul > li:nth-child(3)');
-                if (element4) {
-                    element4.style.display = 'none';
-                }
-            }
-        }
-    })
-    observer.observe(targetNode, config)
-})
-// end css filter
